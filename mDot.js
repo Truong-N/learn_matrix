@@ -1,4 +1,4 @@
-const mMultiply = require('./mMatrixMatrixMultiply');
+const mMultiply = require('./multiply2Matrixes');
 const mSize = require('./mSize');
 const mTranspose = require('./mTranspose');
 

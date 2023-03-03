@@ -1,6 +1,7 @@
 const logMatrix = require('./logMatrix');
 const mSize = require('./mSize');
-const mMultiply = (m1, m2) => {
+
+const multiply2Matrixes = (m1, m2) => {
   const s1 = mSize(m1);
   const s2 = mSize(m2);
   logMatrix(m1);
@@ -22,4 +23,4 @@ const mMultiply = (m1, m2) => {
     return nwArr;
   }
 };
-module.exports = mMultiply;
+module.exports = multiply2Matrixes;
